@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo1{
+    height: 92px;
+    align-content: center;
+    
+}
+
+.logo2{
+    height: 96px;
+    float: right;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 100%;
+    min-height: 312px;
+    overflow: hidden;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    
+}
+
+.content{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content img{
+    width: 100%;
+}
+
+.loginform{
+    flex-basis: 50%;
+    font-family: sans-serif, monospace;
+    padding: 25px;
+    background-color: rgb(200, 226, 243);
+}
+
+.loginform h1{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.tbox{
+    width: 100%;
+    margin: 0 15px 15px 0;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.btn{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: blue;
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.querry{
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+    
+}
+.querry li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
